@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Inspiration template: https://www.wix.com/website-template/view/html/1703
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
