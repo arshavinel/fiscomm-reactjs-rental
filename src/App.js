@@ -1,11 +1,23 @@
-import './App.css';
+import React from 'react';
+import './AppStyle.css';
+import ChatButton from './Components/ChatButton';
+import Footer from './Components/Footer';
+import SearchBar from './Components/SearchBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Our main content will be placed here!</h1>
+
+   
+    <div className='App'>
+       
+      <div className="page-container">
+
+        <ChatButton/>
+        <Footer/>
+      </div>
+      
     </div>
-  );
+  ); 
 }
 
 export default App;
