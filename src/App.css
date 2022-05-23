@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
 
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+
 .App{
   font-family: 'Raleway', sans-serif;
 }
