@@ -1,19 +1,17 @@
 import React from 'react';
-import './AppStyle.css';
-import ChatButton from './Components/ChatButton';
-import Footer from './Components/Footer';
-import SearchBar from './Components/SearchBar';
+import Homepage from './Pages/Homepage';
+import './App.css';
+
 
 function App() {
   return (
-
    
     <div className='App'>
        
       <div className="page-container">
-
-        <ChatButton/>
-        <Footer/>
+        
+      <Homepage />
+      
       </div>
       
     </div>

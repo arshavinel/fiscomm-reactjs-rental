@@ -1,0 +1,31 @@
+.nav-links {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.book-btn {
+  background-color: rgb(138, 138, 138);
+  padding: 5px 35px;
+  cursor: pointer;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color:darkblue;
+}
+
+.book-btn:hover,
+.book-btn:focus{
+  color:black;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 35px;
+  cursor: pointer;
+}
