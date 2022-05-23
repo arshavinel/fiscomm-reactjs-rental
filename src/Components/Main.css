@@ -1,0 +1,62 @@
+.main__content {
+    background-color: rgb(255,255,255);
+    max-width: 1040px;
+    margin: 12% auto;
+    border:1px solid;
+}
+
+.main__content__form {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 18px 18px;
+  text-align: left;
+}
+
+.main__content__form_inputs {
+    margin-right:15px;
+}
+
+label {
+    text-align: left;
+}
+
+button {
+  background-color: rgba(106,163,162,1);
+  position: relative;
+  top: 19px;
+  height: 34px;
+  width: 180px;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+input[type="date"] {
+    width:260px;
+}
+
+input[type="number"] {
+    width: 84px;
+
+}
+
+input[type="date"],input[type="number"]  {
+    margin: 0;
+    height: 32px;
+    padding: 0 8px;
+    line-height: 30px;
+    border: 1px solid #dadcdc;
+    background: #fff;
+    border-radius: 1px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    stroke: #000;
+    display: block;
+}
+
+input[type="date"],input[type="number"]:focus {
+    outline:none;
+}
