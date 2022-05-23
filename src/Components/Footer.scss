@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.main-in-footer{
+    padding-bottom: 3rem;
+    color: rgb(134, 134, 134);
+}
+
+.main-footer{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+}
+
+.col{
+    padding-top: 3rem;
+}
+
+
+.span-footer{
+    font-size: 1.2rem;
+    color: rgb(47, 46, 46);
+}
+
+// yellow little lines
+.hr-footer{
+    opacity: 1;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 35px;
+    border: 0.01rem solid rgb(255, 183, 48);
+}
+
+// Contact span
+.contact:hover{
+    color:rgb(106, 163, 162)
+}
+
+.contact{
+    transition: color 0.5s;
+}
+
+// Logos
+.cards{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardImage{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
