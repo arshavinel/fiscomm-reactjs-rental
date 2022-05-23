@@ -1,13 +1,12 @@
 .hero {
-  position: fixed;
+
   width:100%;
-  height: 100%;
+  height: 100vh;
   background-image: url('../img/hero-image.jpg');
   text-align: center;
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: auto;
-  background-attachment: fixed;
+  background-size: cover;
 }
 
 .hero-subtitle {

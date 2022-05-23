@@ -1,0 +1,32 @@
+.subscribeBtn{
+    height: 36px;
+    margin-top: 10px;
+    color: white;
+    width: 80%;
+    transition: 0.5s;
+    background-color: grey;
+    border: 0;
+}
+.subscribeBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+.inputEmail{
+    border: 1px solid grey;
+    height: 36px;
+    width: 80%;
+    transition: 0s;
+    padding-left: 20px;
+    outline: none;
+}
+
+.inputEmail:focus{
+    font-size: 0.85rem;
+    border: 2px solid grey
+}
+
+.inputEmail:hover{
+    font-size: 0.85rem;
+    border: 2px solid grey
+}
