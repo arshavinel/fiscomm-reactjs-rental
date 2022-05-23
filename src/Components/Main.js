@@ -5,16 +5,16 @@ export default function Main() {
     return(
             <main className="main__content">
                 <form className="main__content__form">
-                   <label for="checkIn">Check In</label>
+                   <label htmlFor="checkIn">Check In</label>
                    <input type="date" id="checkIn" name="checkIn" placeholder="DD MM YYYY" />
 
-                   <label for="checkOut">Check Out</label>
+                   <label htmlFor="checkOut">Check Out</label>
                    <input type="date" id="checkOut" name="checkOut" placeholder="DD MM YYYY"/>
 
-                   <label for="adults">Adults</label>
+                   <label htmlFor="adults">Adults</label>
                    <input type="number" id="adults" name="adults" placeholder="1" step="1" />
 
-                   <label for="kids">Kids</label>
+                   <label htmlFor="kids">Kids</label>
                    <input type="number" id="kids" name="kids" placeholder="0" step="1" />
 
                    <button className="search-btn" type="submit">Search</button>
