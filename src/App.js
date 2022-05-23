@@ -8,11 +8,7 @@ function App() {
    
     <div className='App'>
        
-      <div className="page-container">
-        
       <Homepage />
-      
-      </div>
       
     </div>
   ); 

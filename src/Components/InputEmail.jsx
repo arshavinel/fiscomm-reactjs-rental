@@ -1,10 +1,12 @@
 import React from "react";
+import "./InputEmail.scss"
+import { ButtonToolbar } from "react-bootstrap";
 
 let InputEmail = ()=>{
     return(
         <div className="form-group">
-            <input type="email" className="form-control" id="" placeholder="Enter your email here*"/>
-            <button type="submit" className="btn mt-2 text-white bg-secondary" style={{ width:"100%"}}>Subscribe now</button>
+            <input type="email" className="inputEmail" id="" placeholder="Enter your email here*"/>
+            <button className="subscribeBtn"> Subscribe now </button>
         </div>
     )
 }

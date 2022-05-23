@@ -6,11 +6,11 @@ import InputEmail from "./InputEmail";
 
 const Footer = ()=>{
     return(
-        <div className="main-footer ">
-            <div className="container "  >
+        <div className="container ">
+            <div className=" main-footer "  >
                 <div className="row">
                     <div className="col" >
-                        <span className="contact">Contact us</span>
+                        <span className="contact span-footer">Contact us</span>
                         <hr className="hr-footer"></hr>
                         <div className="main-in-footer">
                             <p>Ask us anything! We’re here to <br></br>answer any questions you have. </p>
@@ -19,7 +19,7 @@ const Footer = ()=>{
                         
                     </div>
                     <div className="col" >
-                        <span>Follow us</span>
+                        <span className="span-footer">Follow us</span>
                         <hr className="hr-footer"></hr>
                         <div className="main-in-footer">
                             <div className="cards">
@@ -36,7 +36,7 @@ const Footer = ()=>{
                         </div> 
                     </div>
                     <div className="col">
-                        <span>Subscribe for Updates & Offers</span>
+                        <span className="span-footer">Subscribe for Updates & Offers</span>
                         <hr className="hr-footer"></hr>
                         <div className="main-in-footer">
                             <InputEmail/>

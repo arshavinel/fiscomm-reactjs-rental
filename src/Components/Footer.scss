@@ -6,7 +6,6 @@
 }
 
 .main-footer{
-    max-width: 980px;  
     font-family: 'Raleway', sans-serif;
     margin-bottom: 50px;
     font-size: 0.9rem;
@@ -16,11 +15,13 @@
     padding-top: 3rem;
 }
 
-span{
+
+.span-footer{
     font-size: 1.2rem;
     color: rgb(47, 46, 46);
 }
 
+// yellow little lines
 .hr-footer{
     opacity: 1;
     margin-top: 2rem;
@@ -29,6 +30,7 @@ span{
     border: 0.01rem solid rgb(255, 183, 48);
 }
 
+// Contact span
 .contact:hover{
     color:rgb(106, 163, 162)
 }
@@ -37,17 +39,7 @@ span{
     transition: color 0.5s;
 }
 
-
-
-// .card1{
-//     background-image: url('../img/booking.png');
-//     background-repeat: no-repeat;
-//     background-attachment: fixed;
-//     background-size: cover;
-//   }
-
 // Logos
-
 .cards{
     display: flex;
     justify-content: flex-start;
