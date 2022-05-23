@@ -1,11 +1,10 @@
-import Header from "../Components/Header";
-import React from "react";
+import Hero from "../Components/Hero";
+import './Homepage.css';
 
 export default function Homepage() {
   return (
     <div className="container">
-      <Header />
-      
+      <Hero />
     </div>
   )
 }
