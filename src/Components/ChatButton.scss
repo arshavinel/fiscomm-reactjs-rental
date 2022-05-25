@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-.btnChat{
+.chat-button{
     color: white;
     height: 56px;
     width: 200px;
@@ -11,8 +10,24 @@
     margin-bottom: 25px;
     background-color:rgb(106, 163, 162) ;
     border-radius: 10px;
-    font-family: 'Raleway', Helvetica, sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;;
+    object-fit: cover;
+    
+}
+
+.chat-button:hover{
+    cursor: pointer;
+}
+
+.user-logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;    
+}
+
+.button-chat-text{
+    margin: 0;
+    margin-left: 10px;
 }
