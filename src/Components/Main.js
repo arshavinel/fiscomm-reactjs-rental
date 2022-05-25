@@ -1,4 +1,5 @@
 import "./Main.css"
+import React from "react"
 
 export default function Main() {
 
@@ -32,21 +33,24 @@ export default function Main() {
                     <p className="section__p">Stay in a beautiful highrise in Ipanema just off the beach close to many world-class cafes and restaurants. Enjoy Bossa Nova with a cold beer!</p>
 
                     <div className="section__1__left">
-                        <span>Our Apartment</span>
-                        <img src="#" alt="wix_image" />
+                        <div id="our_apartment"><span>Our<br></br>Apartment</span></div>
+                        <img src={require('../img/room.jpg')} alt="wix_image" />
                     </div>
 
                     <div className="section__1__right">
-                        <img src="#" alt="wix_image" />
-                        <span>The apartment is spacious with high ceilings, large windows, an open balcony and a beautiful view of the beach. Stay cool with central A/C and wind-down comfortably in the queen sized bedroom.</span>
+                        <img src={require('../img/bed.jpg')} alt="wix_image" />
+                        <span>The apartment is spacious with high ceilings, large windows, an open balcony and a beautiful view of the beach. Stay cool with central A/C and wind-down comfortably in the queen sized bedroom.
+                         <br></br>
                         <a href="/">BOOK NOW</a>
+                        </span>
                     </div>
-                </section>
 
+                </section>
+                <div className="white-space"></div>
                 <section>
                     <div className="section__2__first">
-                        <img src="#" alt="wix_image" />
-                        <span>Location</span>
+                    <img src={require('../img/sea.jpg')} alt="wix_image" />
+                        <div id="location"><span>Location</span></div>
 
                     </div>
                     <div className="section__2__second">
@@ -54,10 +58,11 @@ export default function Main() {
                          <a href="/">VIEW MAP</a>
                     </div>
 
+                    <img src={require('../img/people.jpg')} alt="wix_image" style={{width:'335px'}} />
                     <div className="section__2_third">
-                        <img src="#" alt="wix_image" />
-                        <h4 className="section__2_third_header">About Camila & Tiago </h4>
-                        <p className="section__2_third_p">Hi, my name is Camila and I’m a nutritionist from the south of Brazil. I moved to the beautiful Ipanema neighborhood two years ago with my husband, Tiago. We live in a homie highrise just off the Leblon Beach, but in the summer we travel!</p>
+                        <h4 className="section__2_title">About Camila & Tiago</h4>
+                        <span>Hi, my name is Camila and I’m a nutritionist from the south of Brazil. I moved to the beautiful Ipanema neighborhood two years ago with my husband, Tiago. We live in a homie highrise just off the Leblon Beach, but in the summer we travel!</span>
+                        <a href="/">STAY WITH US </a>
                     </div>
                 </section>
             </main>

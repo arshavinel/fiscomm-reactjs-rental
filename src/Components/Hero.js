@@ -1,6 +1,6 @@
 import Header from "./Header";
 import './Hero.css';
-import Main from "./Main"
+import React from "react";
 
 export default function Hero() {
   return (
@@ -13,7 +13,6 @@ export default function Hero() {
         <img src={require('../img/wave.jpg')} alt='wave' />
       </div>
       <h1>Welcome to Rio</h1>
-      <Main />
     </div>
 
   )
