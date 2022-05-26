@@ -1,0 +1,256 @@
+:root {
+  --color1:rgb(134,134,134);
+  --color_2: rgb(255,255,255);
+  --color_0: 255,255,255;
+  --color_27: 255,219,152;
+  --color_2: 0,0,0;
+  --color_3: 237,28,36;
+  --color_4: 0,136,203;
+  --color_5: rgb(255,203,5);
+  --color_6: 114,114,114;
+  --color_7: 176,176,176;
+  --color_8: 255,255,255;
+  --color_28: 255,183,48;
+  --color_9: 114,114,114;
+  --color_10: 176,176,176;
+  --color_11: 255,255,255;
+  --color_12: 204,204,204;
+  --color_13: 160,160,159;
+  --color_14: 134,134,134;
+  --color_15: rgb(47,46,46);
+  --color_16: 229,235,237;
+  --color_17: 138,173,184;
+  --color_18: 99,136,148;
+  --color_29: 170,122,32;
+  --color_19: 56,99,112;
+  --color_20: 0,59,77;
+  --color_21: 198,224,224;
+  --color_22: 160,194,193;
+  --color_23: 135,190,189;
+  --color_24: rgb(106,163,162);
+  --color_25: 49,76,77;
+  --color_30: 85,61,16;
+  --color_31: 244,234,177;
+  --color_32: 233,219,137;
+  --color_33: 222,195,40;
+  --color_34: 148,130,27;
+  --color_35: 74,65,13;
+  --font_0: normal normal normal 65px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+  --font_1: normal normal normal 16px/1.4em raleway,sans-serif;
+  --font_2: normal normal normal 37px/1.4em raleway,sans-serif;
+  --font_3: italic normal normal 45px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+  --font_4: normal normal normal 28px/1.4em raleway,sans-serif;
+  --font_5: italic normal normal 23px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+  --font_6: italic normal normal 21px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+  --font_7: normal normal normal 17px/1.4em raleway,sans-serif;
+  --font_8: normal normal normal 15px/1.4em raleway,sans-serif;
+  --font_9: normal normal normal 14px/1.4em raleway,sans-serif;
+  --font_10: normal normal normal 12px/1.4em raleway,sans-serif;
+  --wix-ads-height: 0px;
+  --wix-ads-top-height: 0px;
+  --site-width: 980px;
+  --above-all-z-index: 100000;
+  --portals-z-index: 100001;
+  --minViewportSize: 320;
+  --color_26: 255,231,186;
+  --maxViewportSize: 1920;
+}
+
+
+.main__content {
+    background-color: rgb(255,255,255);
+    width: 980px;
+    margin: -70px auto 0;
+    margin-bottom: 0;
+}
+
+.main__content__form {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 18px 18px;
+  text-align: left;
+}
+
+.main__content__form_inputs {
+    margin-right:15px;
+}
+
+label {
+    text-align: left;
+}
+
+.search-btn {
+  background-color: rgba(106,163,162,1);
+  position: relative;
+  top: 24px;
+  height: 32px;
+  width: 100%;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+input[type="date"] {
+    width:260px;
+}
+
+input[type="number"] {
+    width: 84px;
+
+}
+
+input[type="date"],input[type="number"]  {
+    margin: 0;
+    height: 32px;
+    padding: 0 8px;
+    line-height: 30px;
+    border: 1px solid #dadcdc;
+    background: #fff;
+    border-radius: 1px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    stroke: #000;
+    display: block;
+}
+
+input[type="date"],input[type="number"]:focus {
+    outline:none;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    color: var(--color1);
+}
+
+.section__p {
+    color: var(--color1);
+    font: var(--font_8);
+    text-align: center;
+    padding: 60px 90px;
+}
+
+.section__1__left {
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+#our_apartment {
+    width: 330px;
+    background-color: var(--color_24);
+}
+
+#our_apartment span {
+    display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 28px;
+  color: white;
+}
+
+.section__1__right {
+    width: 100%;
+    display: flex;
+}
+
+.section__1__right span {
+    padding: 80px 80px;
+    font: var(--font_8);
+    color: var(--color1);
+}
+
+.section__1__right a {
+    font: var(--font_8);
+    color: var(--color_24);
+    text-decoration: none;
+    position: relative;
+    top: 60px;
+}
+
+.white-space {
+  height: 70px;
+  background-color: rgb(229,235,237);
+}
+
+#location {
+  background-color: var(--color_24);
+  float: right;
+  width: 330px;
+  height: 277px;
+  text-align: center;
+}
+
+#location span {
+    font-size: 28px;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+.section__2__second p {
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 15px;
+    margin: 70px auto;
+    width: 561px;
+    font: var(--font_8);
+    color: var(--color1);
+}
+
+.section__2__second a {
+    font: var(--font_8);
+    color: var(--color_24);
+    text-decoration: none;
+    margin-right: 100px;
+    white-space: nowrap;
+    position: relative;
+    left: 450px;
+    bottom: 40px;
+}
+
+.section__2_third {
+    background-color: var(--color_24);
+    float: right;
+    width: 645px;
+    height: 364px;
+    padding: 10px 70px;
+}
+
+
+.section__2_third h4 {
+    color: white;
+    text-align: start;
+    position: relative;
+    top: 50px;
+    font: var(--font_4);
+}
+
+.section__2_third span {
+    line-height: 1.4em;
+    font-size: 15px;
+    color:white;
+    position: relative;
+    top: 90px;
+}
+
+.section__2_third a {
+    font: var(--font_8);
+    color: rgb(255,255,255);
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    top: 150px;
+    right: 170px;
+}
+
+.section__2_third a:hover {
+    color: var(--color_15);
+    transition: var(--trans,color .4s ease 0s);
+}

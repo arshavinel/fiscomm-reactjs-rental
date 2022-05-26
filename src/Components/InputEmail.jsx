@@ -1,8 +1,8 @@
 import React from "react";
 import "./InputEmail.scss"
-import { ButtonToolbar } from "react-bootstrap";
 
-let InputEmail = ()=>{
+
+const InputEmail = () =>{
     return(
         <div className="form-group">
             <input type="email" className="inputEmail" id="" placeholder="Enter your email here*"/>
