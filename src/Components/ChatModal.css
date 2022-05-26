@@ -1,0 +1,30 @@
+.chatModalContainer{
+    background-color: wheat;
+    height: 550px;
+    width: 308px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-close{
+
+    color: white;
+    background-color: #DA2D2D;
+    border: 0;
+    border-radius: 5%;
+}
+
+.button-close:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px ;
+    height: 30px;
+    width: 70px;
+    font-size: 1.1rem;
+}
