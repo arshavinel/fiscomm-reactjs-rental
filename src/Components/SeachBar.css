@@ -1,0 +1,63 @@
+.main__content__form {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 18px 18px;
+    text-align: left;
+  }
+
+  .main__content__form_inputs {
+      margin-right:15px;
+  }
+
+  label {
+      text-align: left;
+      font-size:14px;
+  }
+
+  .search-btn {
+    background-color: rgba(106,163,162,1);
+    position: relative;
+    top: 24px;
+    height: 32px;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    font-size:20px;
+    cursor: pointer;
+    line-height: 30px;
+}
+
+
+  input[type="date"] {
+      width:260px;
+      font-size: 15px;
+  }
+
+  input[type="number"] {
+      width: 84px;
+      font-size: 20px;
+  }
+
+  input[type="date"],input[type="number"]  {
+      margin: 0;
+      height: 32px;
+      padding: 0 8px;
+      line-height: 30px;
+      border: 1px solid #dadcdc;
+      background: #fff;
+      border-radius: 1px;
+      cursor: pointer;
+      position: relative;
+      white-space: nowrap;
+      display: block;
+  }
+
+  input[type="date"],input[type="number"]:focus {
+      outline:none;
+  }
