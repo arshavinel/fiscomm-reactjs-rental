@@ -1,11 +1,10 @@
 import Header from "./Header";
 import './Hero.css';
 import React from "react";
-import Footer from "./Footer";
 
 export default function Hero() {
   return (
-    
+
     <div className = 'hero'>
       <Header />
       <div className="hero-subtitle">
@@ -14,7 +13,7 @@ export default function Hero() {
         <img src={require('../img/wave.jpg')} alt='wave' />
       </div>
       <h1>Welcome to Rio</h1>
-      
     </div>
+
   )
 }
