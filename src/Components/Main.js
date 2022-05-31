@@ -1,4 +1,4 @@
-import "./Main.css"
+import "./Main.scss"
 import React from "react"
 import SeachBar from "./SearchBar"
 

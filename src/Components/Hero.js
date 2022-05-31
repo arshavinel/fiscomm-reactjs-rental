@@ -1,5 +1,5 @@
 import Header from "./Header";
-import './Hero.css';
+import './Hero.scss';
 import React from "react";
 
 export default function Hero() {

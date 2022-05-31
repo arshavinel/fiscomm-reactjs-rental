@@ -1,5 +1,5 @@
 import React from 'react'
-import "./SeachBar.css"
+import "./SeachBar.scss"
 
 export default function SeachBar() {
 
