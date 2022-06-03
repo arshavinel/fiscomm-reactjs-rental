@@ -1,16 +1,16 @@
 import React from 'react';
-import Homepage from './Pages/Homepage';
 import './App.scss';
-
+import AnimatedRoutes from './Components/AnimatedRoutes';
 
 function App() {
   return (
 
     <div className='App'>
-
-      <Homepage />
-
+    
+      <AnimatedRoutes/>
+      
     </div>
+
   );
 }
 
