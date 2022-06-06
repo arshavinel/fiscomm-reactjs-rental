@@ -1,8 +1,6 @@
 import React from 'react'
 import SeachBar from './SearchBar'
 import './ApartmentMain.scss';
-import {BsSnow} from 'react-icons/bs';
-import {AiOutlineWifi} from 'react-icons/ai'
 
 const ApartmentMain = ()=>{
 return(
@@ -27,11 +25,7 @@ return(
                 </ul>
                 <hr />
                 <div className="amenities">
-                    <div className="amenity"><BsSnow size='1.5rem'/></div>
-                    <div className="amenity"><AiOutlineWifi size='1.5rem'/></div>
-                    <div className="amenity"></div>
-                    <div className="amenity"></div>
-                    <div className="amenity"></div>
+                   
                 </div>
             </div>
 
@@ -40,7 +34,7 @@ return(
                 <ul>
                     $250
                 </ul>
-                <button className="more-info-btn" type="submit" style={{fontSize:'12px'}}>Contact</button>
+                <button className="more-info-btn" style={{fontSize:'12px'}}>More info</button>
             </div>
 
            
@@ -69,7 +63,7 @@ return(
                 <ul>
                     $150
                 </ul>
-                <button className="more-info-btn" type="submit" style={{fontSize:'12px'}}>Contact</button>
+                <button className="more-info-btn" style={{fontSize:'12px'}}>More info</button>
             </div>
         </div>
         <hr />
@@ -94,7 +88,7 @@ return(
                 <ul>
                     $350
                 </ul>
-                <button className="more-info-btn" type="submit" style={{fontSize:'12px'}}>Contact</button>
+                <button className="more-info-btn" style={{fontSize:'12px'}}>More info</button>
             </div>
         </div>
         <hr />
@@ -104,4 +98,4 @@ return(
 )
 }
 
-export default ApartmentMain
+export default ApartmentMain;
