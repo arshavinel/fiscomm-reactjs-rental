@@ -1,61 +1,3 @@
-:root {
-  --color1:rgb(134,134,134);
-  --color_2: rgb(255,255,255);
-  --color_0: 255,255,255;
-  --color_27: 255,219,152;
-  --color_2: 0,0,0;
-  --color_3: 237,28,36;
-  --color_4: 0,136,203;
-  --color_5: rgb(255,203,5);
-  --color_6: 114,114,114;
-  --color_7: 176,176,176;
-  --color_8: 255,255,255;
-  --color_28: 255,183,48;
-  --color_9: 114,114,114;
-  --color_10: 176,176,176;
-  --color_11: 255,255,255;
-  --color_12: 204,204,204;
-  --color_13: 160,160,159;
-  --color_14: 134,134,134;
-  --color_15: rgb(47,46,46);
-  --color_16: 229,235,237;
-  --color_17: 138,173,184;
-  --color_18: 99,136,148;
-  --color_29: 170,122,32;
-  --color_19: 56,99,112;
-  --color_20: 0,59,77;
-  --color_21: 198,224,224;
-  --color_22: 160,194,193;
-  --color_23: 135,190,189;
-  --color_24: rgb(106,163,162);
-  --color_25: 49,76,77;
-  --color_30: 85,61,16;
-  --color_31: 244,234,177;
-  --color_32: 233,219,137;
-  --color_33: 222,195,40;
-  --color_34: 148,130,27;
-  --color_35: 74,65,13;
-  --font_0: normal normal normal 65px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
-  --font_1: normal normal normal 16px/1.4em raleway,sans-serif;
-  --font_2: normal normal normal 37px/1.4em raleway,sans-serif;
-  --font_3: italic normal normal 45px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
-  --font_4: normal normal normal 28px/1.4em raleway,sans-serif;
-  --font_5: italic normal normal 23px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
-  --font_6: italic normal normal 21px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
-  --font_7: normal normal normal 17px/1.4em raleway,sans-serif;
-  --font_8: normal normal normal 15px/1.4em raleway,sans-serif;
-  --font_9: normal normal normal 14px/1.4em raleway,sans-serif;
-  --font_10: normal normal normal 12px/1.4em raleway,sans-serif;
-  --wix-ads-height: 0px;
-  --wix-ads-top-height: 0px;
-  --site-width: 980px;
-  --above-all-z-index: 100000;
-  --portals-z-index: 100001;
-  --minViewportSize: 320;
-  --color_26: 255,231,186;
-  --maxViewportSize: 1920;
-}
-
 
 .main__content {
     background-color: rgb(255,255,255);
@@ -67,7 +9,7 @@
 .section__title {
     text-align: center;
     font-size: 28px;
-    padding: 20px;
+    padding: 40px;
     color: var(--color1);
 }
 
