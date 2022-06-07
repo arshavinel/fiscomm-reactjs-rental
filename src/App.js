@@ -1,5 +1,7 @@
 import React from 'react';
 import Homepage from './Pages/Homepage';
+import RioPage from './Pages/Riopage';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -10,14 +12,14 @@ function App() {
   return (
 
     <div className='App'>
-
-    <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-            <Route exact path="/" element={<Homepage />} />
-            <Route exact path="/contact" element={<Contact /> }/>
-        </Routes>
-    </BrowserRouter>
-
+          <Route path="/" element={<Homepage />} />
+          {/* ourApartment and contact routes will go here */}
+          <Route path="Rio" element={<RioPage />} />
+          <Route path="Contact" element={<Contact />} />
+         </Routes>
+        </BrowserRouter>
     </div>
   );
 }

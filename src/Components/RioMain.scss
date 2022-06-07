@@ -1,0 +1,39 @@
+.rio_main_container {
+    background-color: rgb(255, 255, 255);
+    width: 980px;
+    margin: auto;
+    padding: 80px;
+    margin-top: -200px;
+}
+
+.left_section_1, .left_section_2 {
+    margin-left:300px;
+    letter-spacing: 0.05em;
+    line-height: 1.4em;
+    font-size: 15px;
+    font: var(--font_8);
+    color: rgb(var(--color_14));
+    position: relative;
+    bottom: 110px;
+}
+
+.left_section_2 {
+    margin-top: 30px;
+}
+
+
+.title {
+    letter-spacing: 0.02em;
+    display: flex;
+    font: var(--font_4);
+    color: rgb(var(--color_14));
+}
+
+.links {
+    font: var(--font_8);
+    color: var(--color_24);
+    text-decoration: none;
+    margin-left: 300px;
+    position: relative;
+    bottom: 70px;
+}
