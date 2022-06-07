@@ -1,21 +1,15 @@
 import React from 'react';
-import Homepage from './Pages/Homepage';
-import RioPage from './Pages/Riopage';
-import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import './App.scss';
-import OurApartment from './Pages/OurApartment';
-
+import AnimatedRoutes from './Components/AnimatedRoutes';
+import {BrowserRouter as Router} from "react-router-dom";
 function App() {
+
   return (
 
     <div className='App'>
-      <BrowserRouter>
-      <Routes>
-      <Route path="/" element={<Homepage />} />
-      <Route path="/OurApartment" element={<OurApartment/>} />
-      <Route path="Rio" element={<RioPage />} />
-      </Routes>
-      </BrowserRouter>
+      <Router>
+        <AnimatedRoutes/>
+      </Router>
     </div>
 
   );

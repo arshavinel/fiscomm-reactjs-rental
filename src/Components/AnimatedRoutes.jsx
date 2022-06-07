@@ -1,19 +1,25 @@
 import React from "react";
 import Homepage from "../Pages/Homepage";
 import OurApartment from '../Pages/OurApartment';
+import RioPage from "../Pages/Riopage";
 
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {Routes, Route, useLocation} from "react-router-dom";
+import {AnimatePresence} from 'framer-motion';
 
 const AnimatedRoutes = ()=>{
+
+    const location = useLocation();
+
     return(
-      
-      <Router>
-        <Routes>
-          <Route path='/' element={<Homepage/>}></Route>
-          <Route path='/OurApartment' element={<OurApartment/>}></Route>
-        </Routes>
-      </Router>
-       
+    
+        <AnimatePresence>
+          <Routes location = {location} key = {location.pathname}>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/OurApartment" element={<OurApartment/>} />
+            <Route path="Rio" element={<RioPage />} />
+          </Routes>
+        </AnimatePresence>
+  
     )
 }
 
