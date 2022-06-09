@@ -6,8 +6,9 @@ import InputEmail from "./InputEmail";
 
 const Footer = ()=>{
     return(
-        <div className="container ">
+        <div>
             <div className=" main-footer "  >
+                <div className="container">
                 <div className="row">
                     <div className="col" >
                         <span className="contact span-footer">Contact us</span>
@@ -44,6 +45,8 @@ const Footer = ()=>{
                     </div>
                     <p style={{color:'grey'}}>© Be my guest in Rio. Proudly created with <a href="/" style={{color:'grey'}}>Wix.com</a> </p>
                 </div>
+                </div>
+               
             </div>
         </div>
     )
