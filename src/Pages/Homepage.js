@@ -5,17 +5,22 @@ import React from "react";
 import Footer from "../Components/Footer";
 import ChatButton from "../Components/ChatButton"
 import Main from "../Components/Main";
+import { motion } from "framer-motion";
 
 
 export default function Homepage() {
 
   return (
-    <div className="hero-parent">
-      <Hero />
-      <ChatButton/>
-      <Main />
-      <Footer/>
-    </div>
+    
+    <motion.div className="hero-parent"
+    initial={{x:"100%"}}
+    animate = {{x:0}}
+    transition = {{duration:0.5}}>
+        <Hero />
+        <ChatButton/>
+        <Main />
+        <Footer/>
+    </motion.div>
 
   )
 }

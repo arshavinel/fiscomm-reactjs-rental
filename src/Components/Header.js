@@ -1,15 +1,17 @@
 import './Header.scss'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
     <div className = 'header'>
      <nav className='nav-links'>
-          <a href="/">Home</a>
-          <a href="/ourApartment">Our Apartment</a>
-          <a href="/Rio">Rio</a>
-          <a href="/contact">Contact</a> |
-          <a href="/" className='book-btn'>Book</a>
+          <Link to="/">Home</Link>
+          <Link to="/ourApartment">Our Apartment</Link>
+          <Link to="/Rio">Rio</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/ourApartment" className='book-btn'>Book</Link>
+  
       </nav>
     </div>
   )
