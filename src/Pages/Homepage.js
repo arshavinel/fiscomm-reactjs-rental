@@ -6,7 +6,6 @@ import Footer from "../Components/Footer";
 import ChatButton from "../Components/ChatButton"
 import Main from "../Components/Main";
 
-
 export default function Homepage() {
 
   return (
@@ -16,6 +15,5 @@ export default function Homepage() {
       <Main />
       <Footer/>
     </div>
-
   )
 }
