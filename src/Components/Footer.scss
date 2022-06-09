@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+.main-footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    margin: auto;
+    background-color: rgb(229,235,237); 
+}
+
 .main-in-footer{
     padding-bottom: 3rem;
     color: rgb(134, 134, 134);
 }
 
-.main-footer{
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 50px;
-    font-size: 0.9rem;
-    margin: auto;
-    width: 980px;
-}
-
 .col{
     padding-top: 3rem;
 }
-
 
 .span-footer{
     font-size: 1.2rem;
