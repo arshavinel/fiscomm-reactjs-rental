@@ -1,11 +1,12 @@
 import React from 'react';
-import Homepage from './Pages/Homepage';
-import RioPage from './Pages/Riopage';
-import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import './App.scss';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Contact from './Components/Contact';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
+
+import Homepage from './Pages/Homepage';
 import OurApartment from './Pages/OurApartment';
+import RioPage from './Pages/Riopage';
+import Contact from './Pages/Contact';
+
 function App() {
   return (
 
