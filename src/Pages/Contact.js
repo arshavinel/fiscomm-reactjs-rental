@@ -1,10 +1,9 @@
 import React from "react";
-
 import './Contact.scss'
-import Header from "./Header";
-
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
+import ChatButton from "../Components/ChatButton";
 import Wave from '../img/wave.jpg'
-import Footer from "./Footer";
 
 const Contact = () => {
     return (
@@ -96,6 +95,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ChatButton/>
             <Footer />
         </div>
     )
