@@ -1,0 +1,134 @@
+.contact-page {
+    background-image: url(../img/contact-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+}
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.bg-img {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.bg-img h2 { 
+    color: white;
+}
+
+.contact-input-form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1.5px;
+
+    background-color: #E5EBED;
+    
+    padding: 10px;
+    border-radius: 2px;
+
+    width: 60em;
+    height: 40em;
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.ask-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.form-input {
+    text-align: right;
+}
+
+.form-input form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input form input {
+    height: 4vmin;
+    width: 50vmin;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #929292;
+}
+#input-message {
+    height: 15vmin;
+    resize: none;
+    background: transparent;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    letter-spacing: 1.5px;
+}
+
+.form-input form input:focus, .form-input form textarea:focus {
+    outline: none;
+    border-bottom: 3px solid yellowgreen;
+}
+.form-input button {
+    margin-top: 10px;
+    border: 0;
+    border-bottom: 2px solid yellowgreen;
+    letter-spacing: 1.5px;
+}
+
+.form-title, .howto-title {
+    opacity: .7;
+    text-align: center;
+}
+
+#askus-hr, #howto-hr {
+    margin-bottom: 5px;
+    background: rgb(255, 183, 48);
+    opacity: 1;
+    width: 4vmin;
+    padding: 2px;
+    border: 0;
+}
+
+// How to get here
+.howto-get-here {
+    width: 100%;
+    margin-top: 10%;
+}
+.howto-page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#howto-location {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 25%;
+}
+.howto-title h3 {
+    text-align: center;
+}
+
+.howto-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.google-map {
+    border: 1px solid rgb(167, 164, 164);
+    padding: 10px;
+    border-radius: 10px;
+}

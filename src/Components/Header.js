@@ -8,7 +8,7 @@ export default function Header() {
           <a href="/">Home</a>
           <a href="/ourApartment">Our Apartment</a>
           <a href="/Rio">Rio</a>
-          <a href="/contact">Contact</a> |
+          <a href="/Contact">Contact</a>
           <a href="/" className='book-btn'>Book</a>
       </nav>
     </div>
