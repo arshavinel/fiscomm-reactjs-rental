@@ -28,11 +28,15 @@ const Footer = ()=>{
                                     <img src={require('../img/booking2.webp')} alt='booking' />
                                 </div>
                                 <div className="cardImage">
+                                    <a href="https://www.facebook.com/">
                                     <img src={require('../img/facebook2.webp')} alt='facebook' />
+                                    </a>
                                 </div>
+                                <a href="https://www.instagram.com">
                                 <div className="cardImage">
                                     <img src={require('../img/instagram2.webp')} alt='instagram' />
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
